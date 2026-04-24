@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AroLys Handmade Accessories - 手作りアクセサリー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">AroLys</h1>
+            <ul class="nav-links">
+                <li><a href="#gallery">作品</a></li>
+                <li><a href="#about">紹介</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>手作りの温もりを<br>あなたの日常に</h2>
+                <p>一つひとつ心を込めて作り上げた、オリジナルアクセサリーをお届けします。</p>
+                <a href="#gallery" class="cta-button">作品を見る</a>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>作品ギャラリー</h2>
+                <div class="gallery-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder-image">ネックレス</div>
+                        </div>
+                        <h3>ナチュラルパールネックレス</h3>
+                        <p class="description">天然パールを使用した上品なネックレス。どんな装いにも合わせやすいシンプルなデザイン。</p>
+                        <p class="price">¥3,800</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder-image">ピアス</div>
+                        </div>
+                        <h3>ウッドビーズピアス</h3>
+                        <p class="description">温かみのある木製ビーズを使ったナチュラルなピアス。軽やかな着け心地。</p>
+                        <p class="price">¥2,200</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder-image">ブレスレット</div>
+                        </div>
+                        <h3>シルバーチェーンブレスレット</h3>
+                        <p class="description">繊細なシルバーチェーンに小さなチャームを組み合わせた上品なブレスレット。</p>
+                        <p class="price">¥4,500</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="placeholder-image">リング</div>
+                        </div>
+                        <h3>ターコイズリング</h3>
+                        <p class="description">美しいターコイズを使った存在感のあるリング。カジュアルにもエレガントにも。</p>
+                        <p class="price">¥3,200</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>作家紹介</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>AroLys</h3>
+                        <p>京都芸術大学でデザインを学びながら、独自でアクセサリーのデザインや文学を学んでいます。</p>
+                        <p>一つひとつの作品に物語があり、身につける人の日常に小さな喜びを届けたいという想いで制作しています。自然素材や天然石を中心に、温かみのあるデザインを心がけています。</p>
+                        <div class="features">
+                            <div class="feature">
+                                <h4>カスタムオーダー対応</h4>
+                                <p>お客様のご要望に合わせたオーダーメイドも承っております。</p>
+                            </div>
+                            <div class="feature">
+                                <h4>天然素材使用</h4>
+                                <p>可能な限り天然の素材や石を使用し、肌に優しい仕上がりを目指しています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>お問い合わせ</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>作品に関するご質問やオーダーメイドのご相談など、お気軽にお問い合わせください。</p>
+                        <div class="contact-methods">
+                            <div class="method">
+                                <h4>Email</h4>
+                                <p>t-ooishi0273@st.kyoto-art.ac.jp</p>
+                            </div>
+                            <div class="method">
+                                <h4>Instagram</h4>
+                                <p>@arolys_handmade</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">件名</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">選択してください</option>
+                                <option value="purchase">商品購入について</option>
+                                <option value="custom">カスタムオーダー</option>
+                                <option value="question">その他のご質問</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AroLys Handmade Accessories. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
